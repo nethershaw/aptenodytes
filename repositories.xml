@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>n4cer</name>
-    <description>n4cer's overlay for sharing ebuilds</description>
-    <homepage>https://github.com/n4cer/gentoo-overlay</homepage>
+    <name>mvaughn-echo</name>
+    <description>an overlay for sharing ebuilds</description>
+    <homepage>https://github.com/mvaughn-echo/gentoo-overlay</homepage>
     <owner>
-      <email>mm.dehler@gmail.com</email>
-      <name>n4cer</name>
+      <email>mvaughn@echo360.com</email>
+      <name>Matt Vaughn</name>
     </owner>
-    <source type="git">https://github.com/n4cer/gentoo-overlay.git</source>
+    <source type="git">https://github.com/mvaughn-echo/gentoo-overlay.git</source>
   </repo>
 </repositories>

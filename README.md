@@ -9,4 +9,4 @@ This overlay is not official! Use at your own risk!
 
 ### layman
 
-layman -f -o https://raw.githubusercontent.com/mvaughn-echo/gentoo-overlay/master/repositories.xml -a n4cer
+layman -f -o https://raw.githubusercontent.com/mvaughn-echo/gentoo-overlay/master/repositories.xml -a mvaughn-echo

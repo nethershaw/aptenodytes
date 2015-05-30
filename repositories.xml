@@ -2,7 +2,7 @@
 <repositories version="1.0">
   <repo priority="50" quality="experimental" status="unofficial">
     <name>mvaughn-echo</name>
-    <description>an overlay for sharing ebuilds</description>
+    <description>some packages just need ebuilds</description>
     <homepage>https://github.com/mvaughn-echo/gentoo-overlay</homepage>
     <owner>
       <email>mvaughn@echo360.com</email>

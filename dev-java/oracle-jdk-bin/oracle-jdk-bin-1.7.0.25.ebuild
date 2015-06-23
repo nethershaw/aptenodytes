@@ -59,7 +59,7 @@ unset d
 SRC_URI+=" jce? ( ${JCE_FILE} )"
 
 LICENSE="Oracle-BCLA-JavaSE examples? ( BSD )"
-SLOT="1.7/25"
+SLOT="1.7.0.25"
 KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 IUSE="+X alsa aqua derby doc examples +fontconfig jce nsplugin pax_kernel selinux source"
 

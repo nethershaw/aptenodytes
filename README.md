@@ -1,5 +1,5 @@
-gentoo-overlay
-==============
+aptenodytes
+===========
 
 Overlay for Gentoo/Linux packages
 
@@ -9,4 +9,4 @@ This overlay is not official! Use at your own risk!
 
 ### layman
 
-layman -f -o https://raw.githubusercontent.com/mvaughn-echo/gentoo-overlay/master/repositories.xml -a mvaughn-echo
+layman -f -o https://raw.githubusercontent.com/mvaughn-echo/aptenodytes/master/repositories.xml -a mvaughn-echo

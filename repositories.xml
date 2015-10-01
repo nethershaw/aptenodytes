@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>mvaughn-echo</name>
+    <name>aptenodytes</name>
     <description>some packages just need ebuilds</description>
-    <homepage>https://github.com/mvaughn-echo/gentoo-overlay</homepage>
+    <homepage>https://github.com/mvaughn-echo/aptenodytes</homepage>
     <owner>
       <email>mvaughn@echo360.com</email>
       <name>Matt Vaughn</name>
     </owner>
-    <source type="git">https://github.com/mvaughn-echo/gentoo-overlay.git</source>
+    <source type="git">https://github.com/mvaughn-echo/aptenodytes.git</source>
   </repo>
 </repositories>

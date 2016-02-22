@@ -3,11 +3,11 @@
   <repo priority="50" quality="experimental" status="unofficial">
     <name>aptenodytes</name>
     <description>some packages just need ebuilds</description>
-    <homepage>https://github.com/mvaughn-echo/aptenodytes</homepage>
+    <homepage>https://github.com/nethershaw/aptenodytes</homepage>
     <owner>
-      <email>mvaughn@echo360.com</email>
+      <email>nethershaw@gmail.com</email>
       <name>Matt Vaughn</name>
     </owner>
-    <source type="git">https://github.com/mvaughn-echo/aptenodytes.git</source>
+    <source type="git">https://github.com/nethershaw/aptenodytes.git</source>
   </repo>
 </repositories>

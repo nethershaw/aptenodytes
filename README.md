@@ -1,7 +1,7 @@
 aptenodytes
 ===========
 
-Overlay for Gentoo/Linux packages
+Matt Vaughn's personal Gentoo GNU/Linux overlay
 
 ## Warning
 
@@ -9,4 +9,4 @@ This overlay is not official! Use at your own risk!
 
 ### layman
 
-layman -f -o https://raw.githubusercontent.com/mvaughn-echo/aptenodytes/master/repositories.xml -a aptenodytes
+layman -f -o https://raw.githubusercontent.com/nethershaw/aptenodytes/master/repositories.xml -a aptenodytes

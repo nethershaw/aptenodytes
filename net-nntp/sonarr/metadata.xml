@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>nethershaw@gmail.com</email>
+</maintainer>
+<longdescription lang="en">
+Sonarr is a PVR for Usenet and BitTorrent users.
+https://github.com/Sonarr/Sonarr
+</longdescription>
+<use>
+<flag name="updater">
+Use built-in application update function
+</flag>
+</use>
+</pkgmetadata>

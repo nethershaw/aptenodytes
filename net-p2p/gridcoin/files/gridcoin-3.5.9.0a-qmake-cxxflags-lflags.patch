@@ -1,5 +1,7 @@
---- gridcoinresearch.pro        2017-06-05 17:27:09.401811105 -0400
-+++ gridcoinresearch.pro        2017-06-24 00:05:28.842281774 -0400
+# Enclose CXXFLAGS and LFLAGS assignments in quotes to avoid compiler errors.
+
+--- Gridcoin-Research-3.5.9.0a/gridcoinresearch.pro
++++ Gridcoin-Research-3.5.9.0a/gridcoinresearch.pro
 @@ -68,8 +68,8 @@
 
  !win32 {

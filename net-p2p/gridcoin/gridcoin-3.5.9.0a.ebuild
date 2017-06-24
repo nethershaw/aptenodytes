@@ -6,7 +6,7 @@ EAPI=6
 inherit flag-o-matic
 inherit qmake-utils
 
-DESCRIPTION="Gridcoin PoS-based crypto-currency that rewards BOINC computation"
+DESCRIPTION="Gridcoin Proof-of-Stake based crypto-currency that rewards BOINC computation"
 HOMEPAGE="https://gridcoin.us/"
 SRC_URI="https://github.com/${PN}/Gridcoin-Research/archive/${PVR}.tar.gz"
 
@@ -41,8 +41,10 @@ pkg_setup() {
 	use pie	&& host-is-pax && BUILDOPTS+="-e PIE=1 "
 }
 
-src_prepare() {
-	eapply_user "${FILESDIR}/${PN}-qmake-cxxflags-lflags.patch"
+src_unpack() {
+	unpack ${A}
+	cd "${S}"
+	use qt5 && epatch "${FILESDIR}/${P}-qmake-cxxflags-lflags.patch"
 }
 
 src_compile() {

@@ -20,7 +20,7 @@ DEPEND=">=dev-libs/boost-1.55.0
 	>=sys-libs/db-5.3.28:*
 	dbus? ( sys-apps/dbus )
 	qrcode? ( media-gfx/qrencode )
-	qt5? ( dev-qt/qtcore:5 )
+	qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtconcurrent:5 )
 	upnp? ( >=net-libs/miniupnpc-1.9.20140401 )"
 RDEPEND="${DEPEND}"
 

@@ -48,15 +48,14 @@ src_unpack() {
 }
 
 src_compile() {
-	cd "${S}/src"; mkdir -p obj
 	append-flags -Wa,--noexecstack
-	emake -f makefile.unix ${BUILDOPTS} NO_UPGRADE=1
-	cd "${S}"
 	if use qt5 ; then
 		append-flags "-I${BDB_INCLUDE_PATH}"
 		eqmake5 ${BUILDOPTS} NO_UPGRADE=1
 		emake
 	fi
+	cd "${S}/src" ; mkdir -p obj
+	emake -f makefile.unix ${BUILDOPTS} NO_UPGRADE=1
 }
 
 src_install() {

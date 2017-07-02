@@ -8,7 +8,7 @@ inherit qmake-utils
 
 DESCRIPTION="Gridcoin Proof-of-Stake based crypto-currency that rewards BOINC computation"
 HOMEPAGE="https://gridcoin.us/"
-SRC_URI="https://github.com/${PN}/Gridcoin-Research/archive/${PVR}.tar.gz"
+SRC_URI="https://github.com/${PN}/Gridcoin-Research/archive/${PV}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -24,7 +24,7 @@ DEPEND=">=dev-libs/boost-1.55.0
 	upnp? ( >=net-libs/miniupnpc-1.9.20140401 )"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/Gridcoin-Research-${PVR}"
+S="${WORKDIR}/Gridcoin-Research-${PV}"
 
 pkg_pretend() {
 	if use pie ; then
@@ -59,9 +59,9 @@ src_compile() {
 }
 
 src_install() {
-	dobin src/gridcoinresearchd
-	use qt5 && dobin gridcoinresearch
-	doman doc/gridcoinresearchd.1
-	use qt5 && doman doc/gridcoinresearch.1
+	newbin src/gridcoinresearchd gridcoind
+	use qt5 && newbin gridcoinresearch gridcoin-qt
+	newman doc/gridcoinresearchd.1 gridcoind.1
+	use qt5 && newman doc/gridcoinresearch.1 gridcoin-qt.1
 	dodoc README.md CHANGELOG.md INSTALL CompilingGridcoinOnLinux.txt
 }

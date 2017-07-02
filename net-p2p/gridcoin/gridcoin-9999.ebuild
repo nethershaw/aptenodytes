@@ -59,9 +59,9 @@ src_compile() {
 }
 
 src_install() {
-	newbin src/gridcoinresearchd gridcoinresearchd-testnet
-	use qt5 && newbin gridcoinresearch gridcoinresearch-testnet
-	newman doc/gridcoinresearchd.1 gridcoinresearchd-testnet.1
-	use qt5 && newman doc/gridcoinresearch.1 gridcoinresearch-testnet.1
+	newbin src/gridcoinresearchd gridcoind-testnet
+	use qt5 && newbin gridcoinresearch gridcoin-qt-testnet
+	newman doc/gridcoinresearchd.1 gridcoind-testnet.1
+	use qt5 && newman doc/gridcoinresearch.1 gridcoin-qt-testnet.1
 	dodoc README.md CHANGELOG.md INSTALL CompilingGridcoinOnLinux.txt
 }
